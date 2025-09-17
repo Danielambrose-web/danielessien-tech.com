@@ -155,3 +155,31 @@ body{
      list-style:disc; 
      padding-left:1.15rem
     }
+
+    /* SKILLS GRID */
+.skills-grid{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.9rem;
+  margin-top:1rem;
+}
+.skill{
+  display:inline-flex;
+  gap:.6rem;
+  align-items:center;
+  padding:.45rem .6rem;
+  background:var(--card);
+  border-radius:10px;
+  border:1px solid var(--border);
+  box-shadow:var(--shadow);
+  min-width:120px;
+}
+.skill img{
+    width:28px; 
+    height:28px; 
+    object-fit:contain
+}
+.skill span{
+    font-weight:600;
+     font-size:.95rem
+    }
