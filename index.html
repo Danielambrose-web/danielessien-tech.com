@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>danielessien.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <!--HEADER SECTION-->
+    <header class="site-header">
+        <nav class="navbar container">
+            <div class="brand">
+                <a href="#" class="logo">Daniel</a>
+            </div>
+
+            <ul class="nav-links" role="menubar">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false"
+                    title="Toggle theme">
+                    <i class="fa-solid fa-sun" id="sun-icon"></i>
+                    <i class="fa-solid fa-moon" id="moon-icon"></i>
+                </button>
+
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero container">
+            <div class="hero-left">
+                <h1 class="hero-title">Hi, I'm <span class="accent">Daniel Ambrose</h1>
+                <p class="lead">I'm an Intermediate Front-end developer who loves building thoughtful, accessible
+                    digital
+                    experiences.</p>
+                <p class="meta">Uyo,Akwa Ibom. Always open for work</p>
+            </div>
+
+            <div class="hero-right">
+                <img src="imgs/profile.jpeg" alt="Daniel Ambrose profile pics" class="profile-photo" />
+            </div>
+        </section>
+
+
+        <!-- ABOUT -->
+        <section id="about" class="section container">
+            <h2 class="section-title">About</h2>
+            <div class="about-grid">
+                <img src="imgs/new.jpeg" alt="About photo" class="about-image" />
+                <div class="about-content">
+                    <p>
+                        I'm a passionate, self-motivated developer who is current a student of university of uyo.
+                        In Department of Information Systems, Faculty of Computing. And currently studying with Noble Bootcamp and Codatic.    
+                        I like to write clean code, and I learn new technologies every week.
+                    </p>
+
+                    <ul class="about-list">
+                        <li> Building responsive & scalable web apps</li>
+                        <li> Clean, component-driven UI</li>
+                        <li> Lifelong learner — constantly improving</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>
